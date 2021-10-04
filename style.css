@@ -1,0 +1,40 @@
+h1 {
+    color:rgba(220, 3, 248, 0.966);
+    margin:30px;
+    padding:10px;
+} 
+body {
+    background-color:#14e01f; 
+}
+.menu  {
+    margin-right:30px;
+    margin-top:50px;
+}
+.menu a {
+    padding:10px;
+}
+a:link{
+    color:blue;
+}
+a:visited{
+    color:rgb(120, 1, 255);
+}
+p {  font-size: 25px; }
+
+.header {
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: space-between; 
+}
+.ImagesGroup {
+    background-color:coral;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    position:relative;
+}
+.img p {
+    position:absolute;
+    top:50%;
+    left:50%;
+}
